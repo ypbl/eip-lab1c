@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Products  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:noNamespaceSchemaLocation="file:/Users/ernestoexposito/GoogleDrive/___UPPA/ENS/xDEV/eip-lab1c/Product.xsd">
+           xsi:noNamespaceSchemaLocation="http://eexposit.perso.univ-pau.fr/content/xsd/Product.xsd">
     <Product>
         <ProductId>1</ProductId>
         <ProductDescription>smartphone</ProductDescription>
