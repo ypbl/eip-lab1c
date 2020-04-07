@@ -1,8 +1,5 @@
 package eip.fileintegration.xml;
 
-
-
-
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
