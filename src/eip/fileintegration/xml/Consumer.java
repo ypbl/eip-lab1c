@@ -1,8 +1,5 @@
 package eip.fileintegration.xml;
 
-
-
-
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -23,9 +20,9 @@ public class Consumer extends javax.swing.JFrame {
     /**
      * Creates new form Consumer
      */
-    public Consumer() throws IOException {
+    public Consumer() throws Exception {
         initComponents();
-        importer = new Importer("export.dat");
+        importer = new Importer("export.xml");
         
     }
 
@@ -149,7 +146,7 @@ public class Consumer extends javax.swing.JFrame {
             public void run() {
                 try {
                     new Consumer().setVisible(true);
-                } catch (IOException ex) {
+                } catch (Exception ex) {
                     System.out.println("Error opening file "+ex);
                 }
             }
