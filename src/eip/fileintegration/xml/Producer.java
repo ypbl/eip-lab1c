@@ -22,9 +22,9 @@ public class Producer extends javax.swing.JFrame {
     /**
      * Creates new form Producer
      */
-    public Producer() throws IOException {
+    public Producer() throws Exception {
         initComponents();
-        exporter = new Exporter("export.dat");   
+        exporter = new Exporter("export.xml");   
     }
 
     /**
@@ -177,7 +177,7 @@ public class Producer extends javax.swing.JFrame {
             public void run() {
                 try {
                     new Producer().setVisible(true);
-                } catch (IOException ex) {
+                } catch (Exception ex) {
                     System.out.println("Error opening export");
                 }
             }
